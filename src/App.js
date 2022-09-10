@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Button from '@mui/material/Button';
 import ComboBox from './Component/Common/ComboBox';
 import BasicButtonGroup from './Component/Common/BasicButtonGroup';
 import SplitButton from './Component/Common/SplitButton';
@@ -31,7 +30,6 @@ function App() {
         <Route path="/common" element={
           <>
             <StandardImageList />
-            <Button variant="contained">Hello World</Button>
             <SplitButton />
             <Checkboxes />
             <ColorCheckboxes />
